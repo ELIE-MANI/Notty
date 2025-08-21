@@ -1,0 +1,40 @@
+body{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ padding: 10px;
+ margin: 0;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1{
+  color: #4654a3;
+}
+
+nav a {
+  background-color: #4654a3;
+  color: white;
+  padding: 4px 6px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+}
+.notes-card {
+  margin: 10px;
+  padding: 4px  6px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 3px 0 rgba(0,0,0,0.75);
+  -webkit-box-shadow: 1px 1px 3px 0 rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 1px 3px 0 rgba(0,0,0,0.75);
+}
+.cat {
+  background-color: #4654a3;
+  padding: 3px 10px;
+  font-size: 13px;
+  color: white;
+  display: inline-block;
+  border-radius: 8px;
+}
