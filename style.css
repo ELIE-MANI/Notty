@@ -38,3 +38,35 @@ nav a {
   display: inline-block;
   border-radius: 8px;
 }
+
+#note-form .form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.form-group label{
+  font-weight: bold;
+}
+
+.form-group input{
+  padding: 4px 6px;
+}
+#note-form button{
+  background-color: #4654a3;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#notes-container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#notes-container-header select{
+  padding: 6px;
+}

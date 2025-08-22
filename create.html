@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
-<script defer src="index.js"></script>
+  <script defer src="create.js"></script>
   <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,32 +16,28 @@
 <body>
   <nav>
   <h1>Notty</h1>
-  <a href="create.html">Create Note</a>
+  <a href="index.html">Back to Note</a>
  
 </nav>
-
-<section class="notes-container">
-  <div id="notes-container-header">
-  <h2>My Notes</h2>
-
-  <select  id="categoryFilter">
-    <option value="all">All Categories</option>
-    <option value="work">Work</option>
-    <option value="Life">Life</option>
-  </select>
-  </div>
-  <!-- <div class="notes-card">   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis rem modi suscipit .</p>
-  <p class="cat">Life</p>    
+<section>
+<h1>Create a new Note</h1>
+<form id="note-form">
+  <div class="form-group">
+      <label for="category">Category</label>
+      <input type="text" id="category" required>
   </div>
 
-   <div class="notes-card">
-  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis rem modi suscipit .</p>
-  <p class="cat">Life</p>    
+<div class="form-group">
+      <label for="note">Your Note</label>
+      <input type="text" id="note" required>
   </div>
--->
 
- </section>
+  <button type="submit">Add Note</button>
 
+</form>
+
+
+</section>
 
 
 </body>
