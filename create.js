@@ -22,7 +22,7 @@ addNoteForm.addEventListener('submit', (e) => {
 
 //add notes to array
 const noteObject = {"category": categoryinput.value, "body": noteinput.value };
-notes.push(noteObject);
+notes.unshift (noteObject);
 
 //store our notes
 localStorage.setItem('notes', JSON.stringify(notes))
